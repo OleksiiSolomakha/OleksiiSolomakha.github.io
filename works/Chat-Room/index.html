@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chat Room</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+  <div class="container  my-4">
+    <h1 class="my-4 text-center">Chat Room</h1>
+
+    <form class="new-name my-3">
+      
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <div class="update-mssg">Your name:
+            </div>
+          </div>
+        </div>
+        <input type="text" id="name" class="form-control" required>
+        <div class="input-group-append">
+          <input type="submit" class="btn" value="change">
+        </div>
+      </div>
+    </form>
+
+    <div class="chat-window">
+      <ul class="chat-list list-group"></ul>
+    </div>
+
+    <form class="new-chat my-3">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text">Your message:</div>
+        </div>
+        <input type="text" id="message" class="form-control" required>
+        <div class="input-group-append">
+          <input type="submit" class="btn" value="  send  ">
+        </div>
+      </div>
+    </form>
+
+    <div class="chat-rooms mb-3 text-center">
+      <div class="my-2">Choose a ChatRoom</div>
+      <button class="btn" id="general">#general</button>
+      <button class="btn" id="gaming">#gaming</button>
+      <button class="btn" id="music">#music</button>
+      <button class="btn" id="films">#films</button>
+    </div>
+  </div>
+
+  <script src="http://cdn.date-fns.org/v1.9.0/date_fns.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js">
+  </script>
+  <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-firestore.js">
+  </script>
+  <script>    
+    var firebaseConfig = {
+      apiKey: "AIzaSyAUUbY4BCrlOuxS94jdg5P4cRMrXdJaSgg",
+      authDomain: "udemyproject-ffa80.firebaseapp.com",
+      databaseURL: "https://udemyproject-ffa80.firebaseio.com",
+      projectId: "udemyproject-ffa80",
+      storageBucket: "udemyproject-ffa80.appspot.com",
+      messagingSenderId: "17566789450",
+      appId: "1:17566789450:web:07fefe2353d4634702dbb3"
+    };
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+  </script>
+  <script src="script/chat.js"></script>
+  <script src="script/ui.js"></script>
+  <script src="script/app.js"></script>
+</body>
+</html>

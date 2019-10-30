@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TODO List</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="text-center text-muted my-4">
+      <h1 class="mb-4">TODO List</h1>
+      <form class="add text-center my-4">
+        <!-- <label class="text-muted">Add new task</label> -->
+        <input type="text" class="form-control m-auto" name="add" placeholder="Add new task"/>
+      </form>      
+    </header>
+
+    <ul class="list-group todos mx-auto text-ligth">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <input type="checkbox" class="checkbox">
+        <span>First thing To Do</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <input type="checkbox" class="checkbox">
+        <span>Second thing To Do</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <input type="checkbox" class="checkbox">
+        <span>Third thing To Do</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+    </ul>
+
+    <form class="search text-center my-4"">
+      <label class="text-muted">Search form</label>
+      <input type="text" class="form-control m-auto" name="search" placeholder="Find your task">
+    </form>
+
+  </div>
+  
+  <script src="script/app.js"></script>
+</body>
+</html>

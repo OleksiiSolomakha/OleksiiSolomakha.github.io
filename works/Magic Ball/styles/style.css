@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1D1D1D;
+  text-align: center;
+}
+h1 {
+  color: white;
+  margin-bottom: 0;
+}
+img {
+  width: 40%;
+}
+.answer {
+  position: relative;
+  bottom: 280px;
+  height: 20px;
+  font-size: 1.5em;
+  color: white;
+  text-shadow: 1px 2px 5px white;
+  animation: tracking-out-contract 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) 3s both;
+}
+.animation{
+  animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;  
+}
+#shake-btn{
+  color: white;
+  text-shadow: 0px 0px 4px white;
+  background: black;
+  border-radius: 50%;
+  outline: none;
+  height: 50px;
+  position: relative;
+  bottom: 40px;
+}
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-out-contract {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+}
+
