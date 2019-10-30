@@ -21,7 +21,7 @@ var data = [
 		id: 3,
 		title: "The Weather App",
 		description: "Classic Weather App project used AcuWeather Apis. With async request to the server, we get information about location and current weather condition.",
-		linkToDemo: "https://oleksiisolomakha.github.io/works/Weather-app/index.html",
+		linkToDemo: "https://oleksiisolomakha.github.io/works/Weather-App/index.html",
 		linkToCode: "https://github.com/OleksiiSolomakha/Weather-App",
 		image: "images/works-screen/weather.jpg",
 		tags: ["Html/Css", "Bootstrap", "JavaScript", "AJAX"]
@@ -75,7 +75,7 @@ var data = [
 		id: 9,
 		title: "UI Library",
 		description: "Simple UI with interesting features. Used Node JS to install all modules and packages for work: babel, webpack etc.",
-		linkToDemo: "https://oleksiisolomakha.github.io/works/Ul-Library/dist/index.html",
+		linkToDemo: "https://oleksiisolomakha.github.io/works/UI-Library/dist/index.html",
 		linkToCode: "https://github.com/OleksiiSolomakha/UI-Library",
 		image: "images/works-screen/ui-library.jpg",
 		tags: ["Html/Css", "JavaScript", "NodeJS", "Webpack"]
