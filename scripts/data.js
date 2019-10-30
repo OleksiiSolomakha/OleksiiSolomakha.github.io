@@ -78,7 +78,7 @@ var data = [
 		linkToDemo: "https://oleksiisolomakha.github.io/works/UI-Library/dist/index.html",
 		linkToCode: "https://github.com/OleksiiSolomakha/UI-Library",
 		image: "images/works-screen/ui-library.jpg",
-		tags: ["Html/Css", "JavaScript", "NodeJS", "Webpack"]
+		tags: ["Html/Css", "JavaScript", "Webpack"]
 	},
 	{
 		id: 10,
