@@ -15,7 +15,7 @@ var data = [
 		linkToDemo: "https://oleksiisolomakha.github.io/works/Questions-Form/public/index.html",
 		linkToCode: "https://github.com/OleksiiSolomakha/Questions-Form",
 		image: "images/works-screen/form.jpg",
-		tags: ["Html/Css", "JavaScript", "ES6", "Webpack", "MUI", "Firebase"]
+		tags: ["Html/Css", "JavaScript", "Webpack", "MUI", "Firebase"]
 	},
 	{
 		id: 3,
