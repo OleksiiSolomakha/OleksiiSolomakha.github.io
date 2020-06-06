@@ -84,8 +84,8 @@
 			<img src="${singleWorkObj.image}" alt="">
 				<div class="mask">
 					<p>${singleWorkObj.description}</p>
-					<a href="${singleWorkObj.linkToDemo}" class="info">Demo</a>
-					<a href="${singleWorkObj.linkToCode}" class="info">Code</a>
+					<a href="${singleWorkObj.linkToDemo}" class="info" target="_blank">Demo</a>
+					<a href="${singleWorkObj.linkToCode}" class="info" target="_blank">Code</a>
 				</div>
 			</div>
 			`);

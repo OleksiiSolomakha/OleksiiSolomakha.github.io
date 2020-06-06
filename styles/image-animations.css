@@ -1,9 +1,7 @@
-
 .view img {
     max-width: 100%;
     height: auto;
 }
-
 .view {
     width: 300px;
     overflow: hidden;
@@ -24,7 +22,6 @@
     display: block;
     position: relative
 }
-
 .view p {
     font-family: Georgia, serif;
     font-style: italic;
@@ -38,19 +35,16 @@
     text-decoration: none;
     padding: 1% 4%;
     margin-left: 3%;
-    background: none repeat scroll 0% 0% #212121;
+    background: none repeat scroll 0% 0% #666666;;
     color: #fff;
     text-transform: uppercase;
     font-family: "Yanone Kaffeesatz",Arial,Helvetica,sans-serif;
     font-size: 1.1em;
 }
 .view a.info:hover {
-    background: #FFF67A;
-    color: #666;
+    background: darkorange;
+    color: white;
 }
-
-/*/-----/*/
-
 .view-tenth img { 
     transform: scaleY(1);
     transition: all 0.4s ease-in-out;
@@ -80,9 +74,6 @@
     transform: scale(0);
     transition: all 0.5s linear;
 }
-
-/*/-----/*/
-
 .view-tenth:hover img { 
     transform: scale(10);
     opacity: 0;
@@ -96,9 +87,6 @@
     transform: scale(1);
     opacity: 1;
 }
-
-/*/-----------------------------------------/*/
-
 .view-first img { 
     transition: all 0.2s linear;
 }
@@ -121,9 +109,6 @@
     opacity: 0;
     transition: all 0.2s ease-in-out;
 }
-
-/*====================*/
-
 .view-first:hover img { 
     transform: scale(1.1);
     
@@ -140,9 +125,6 @@
 .view-first:hover p {
     transition-delay: 0.1s;
 }
-
-/*999999999999999999999999999999*/
-
 .view-fifth img {
     transition: all 0.3s ease-in-out; 
 }
@@ -154,12 +136,9 @@
 }
 .view-fifth h2{
     background: rgba(255, 255, 255, 0.5);
-    color: #000;
+    color: #666666;
     box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
 }
-
-/*99999999999999999999*/
-
 .view-fifth:hover .mask { 
     transform: translateX(0px);
 }                       

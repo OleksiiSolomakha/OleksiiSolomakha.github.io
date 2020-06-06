@@ -1,11 +1,9 @@
-/*Back pulse*/
-
-  .filter .name {
-    padding: 3px 8px;
-    background: none repeat scroll 0% 0% #E3E3E3;
-    color: inherit;
-    text-decoration: none;
-  } 
+.filter .name {
+  padding: 3px 8px;
+  background: none repeat scroll 0% 0% #E3E3E3;
+  color: inherit;
+  text-decoration: none;
+} 
 
 .hvr-back-pulse {
   display: inline-block;
@@ -33,16 +31,13 @@
   animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  background-color: #212121;
-  background-color: #212121;
+  background-color: darkorange;
   color: white;
 }
 .active .hvr-back-pulse {
-  background-color: #FFF67A;
-  color: #666;
+  background-color: darkorange;
+  color: white;
 }
-
-/* Float */
 .hvr-float {
   display: inline-block;
   vertical-align: middle;

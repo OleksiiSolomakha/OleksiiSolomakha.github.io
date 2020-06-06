@@ -11,17 +11,16 @@ body {
   text-decoration: none;
 }
 .header {
-  margin: 2% 1% 0 1%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   align-items: center;
-  background-color: #F2F2F2;
+  color: #666666;
 }
 .header .logo {
   vertical-align: middle;
-  font-family: 'Great Vibes', cursive;
-  color: #181818;
+  font-family: 'Staatliches', cursive;
+  
   font-size: 2.9em;
 }
 .header .logo p {
@@ -35,9 +34,21 @@ body {
   grid-column: 2;
 }
 .header .about-me {
-  font-family: 'Merriweather', Georgia, "Times New Roman", Times, serif;  
+  font-family: 'Saira', sans-serif;
   font-size: 0.9em;
   grid-column: 3;
+}
+.header .about-me span {
+  color: darkorange;
+  font-weight: bold;
+}
+.card {
+  background: #f2f2f2;
+  width: 100%;
+  border-radius: 5px;
+  margin: 2%;
+  padding: 20px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
 }
 .works .works-header {
   padding-bottom: 1%;
@@ -100,10 +111,12 @@ body {
 }
 .works-content .item-wrapper .description a h5 {
   font-size: 1.5em;
+  color: #666666;
 }
 .works-content .item-wrapper .description .tags {
   font-family: "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
   padding-top: 1%;
+  color: darkorange;
 }
 .works-content .item-wrapper .description .tags .fa {
   margin-right: 3%;
@@ -111,35 +124,22 @@ body {
 .works-content .item-wrapper .description .tags span {
   font-size: 0.9em;
 }
-footer {
-  margin-right: 1%;
-  margin-left: 1%;
-  margin-bottom: 1%;
-}
-footer .footer-content .copyright {
-  float: left;
-  font-size: 0.7em;
-  line-height: 40px;
-  font-family: 'Kaushan Script', cursive;
+footer .footer-content {
+  text-align: center;
 }
 footer .footer-content .links a {
-  float: right;
   text-decoration: none;
-  margin: 0% 0% 1% 1%;
+  text-align: center;
+  margin: 1%;
   font-size: 1.7em;
   color: #666666;
 }
 footer .footer-content .links a:hover {
-  color: #e3d94c;
+  color: darkorange;
 }
 .main-wrapper .separator-buttom {
   margin-bottom: 1%;
   margin-top: 0;
-}
-.separator {
-  background: url("../images/pattern_06.png") repeat-x scroll left bottom transparent;
-  min-height: 10px;
-  margin: 1%;
 }
 .clearfix:after {
   content: "";
